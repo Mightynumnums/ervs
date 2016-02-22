@@ -1,0 +1,255 @@
+
+/*******MAIN******/
+
+
+body {
+    overflow-x: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: white;
+	font-family: 'Oxygen';
+}
+
+footer {
+	background-color: #D5DEDEs;
+	min-height: calc (100vh-89px);
+	border-top: 3px solid black;
+	padding-top: 20px;
+}
+
+footer p {
+	font-size: 0.75em;
+}
+
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+
+/*******MAIN HEADER******/
+header{
+	width: 100%;
+	margin-bottom: 50px;
+	margin-left: 30px;
+}
+.neon{
+	float: right;
+	margin-top: -250px;
+	margin-left: auto;
+}
+.media {
+	padding-top: 30px;
+}
+
+
+
+
+
+/*******MAIN NAVIGATION MENU******/
+
+
+
+
+.menu a {
+	color:black;
+}
+
+.menu li a:hover {
+    color:#f93283;
+	border-bottom: 2px solid #f93283;
+}
+
+.menu li{
+	font-size: 1.75em;
+	padding-bottom: 10px;
+}
+
+
+/*******ERVS IMAGE******/
+
+
+.neon img{
+	max-width: 900px;
+}
+
+/*******SOCIAL ICON LINK NAVS******/
+
+.media img,
+.socialfooter img {
+	height: 50px;
+	width: 50px;
+	margin: 5px;
+
+
+}
+
+.media li a:hover img,
+.socialfooter li a:hover img {
+	height: 60px;
+	width: 60px;
+	margin: 0px;
+	background-color: white;
+	border-radius: 100%;
+	opacity: .6;
+	z-index: -1;
+
+
+}
+
+
+/*******CONTACT******/
+
+.contact h3, h4, p, a {
+	position: bottom;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+.contact a:hover{
+	color:#f93283;
+	border-bottom: 2px solid #f93283;
+}
+ .contact h4 {
+	font-weight: 600;	
+}
+
+
+
+.main h1,
+p {
+	text-align: center;
+}
+.main {
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+.main p{
+	text-align: center;
+	padding-bottom: 20px;
+	display: block;
+}
+
+/************DRINKS*******************/
+
+.menu h2{
+	font-size: 2em;
+}
+
+.container {
+	display: flex;
+	flex-flow: row wrap;
+	align-content: center;
+
+}
+
+.info{
+	width: 200px;
+}
+.brew {
+	order: 0;
+	flex: 1 0 200px;
+	align-self: stretch;
+	margin: auto 20px;
+	padding-left: 20px;
+	
+	
+}
+.booze {
+	order: 2;
+	flex: 1 0 200px;
+	align-self: self;
+	margin: auto 10px;
+	padding-right: 20px;
+}
+.main{
+	order: 1;
+	flex: 2 0 200px;
+	align-self: self;
+	margin: auto 10px;
+	background-color: white;
+
+}
+
+.brew a:hover,
+.booze a:hover {
+	font-size: 1.5em;
+	color: #f93283;
+}
+
+
+
+
+.contact{
+	margin-top: 50px;
+	padding-top: 50px;
+}
+
+
+
+
+
+
+/************MEDIA FOOTER*******************/
+.socialfooter {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+	padding: 0;
+	margin: 0;
+	}
+
+
+
+
+
+
+
+/************MEDIA QUARIES*******************/
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
