@@ -4,12 +4,10 @@
 
 body {
 	width: 100%;
-    overflow-x: hidden;
-	display: flex;
-	flex-direction: column;
 	min-height: 100vh;
 	background-color: white;
 	font-family: 'Oxygen';
+	text-align: center;
 }
 
 footer {
@@ -31,43 +29,96 @@ li {
 }
 
 .neon img {
-	width: 95%;
-	height: 250px;
-	margin: auto;
-
+	width: 101%;
+   height: 275px;
+   
 }
 
 .menu {
-	width: 100%;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: flex-start;
-	
+	justify-content: space-between;
+	padding: 30px 0;
 }
-.media{
+
+.media,
+.socialfooter{
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
 }
-.media li{
+
+.media li,
+.menu li,
+.click li {
 	display: inline-block;
 	margin: auto;
 	align-items: center;
-
 }
 
-.media img{
+.media img {
 	height: 60px;
 	width: 60px;
 	padding-right: 50px;
-
+	padding-left: 0;
 }
+.click img {
+	height: 40px;
+	width: 40px;
+	padding-right: 50px;
+	padding-left: 0;
+}
+.click {
+	margin-bottom: 20px;
+}
+.click img:hover,
+.media img:hover {
+	opacity: .4;
+}
+
 
 .menu li {
 	display: inline-block;
-	padding: 5px;
+	margin: auto;
+	padding-right: 15px;
+	padding-left: 0;
+}
+.menu a:hover {
+	font-size: 1.25em;
 }
 
+.gallery {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.gallery img{
+	width: auto;
+	height: 100px;
+	padding: 0 10px;
+	margin: auto;
+}
+
+.info,
+.brew,
+.coffee,
+.contact {
+	width: 80%;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.contact{
+	margin-top: 100px;
+}
+
+.info h1{
+	padding-bottom: 20px;
+}
 
 
 
